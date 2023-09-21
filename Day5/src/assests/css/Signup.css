@@ -1,0 +1,105 @@
+
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(193, 32, 221) 0%, rgb(253, 231, 38) 100%);
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: left;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  
+  button[type="submit"] {
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+  }
+  
+  
+  button[type="submit"]:active {
+    background: yellow;
+  }
+  
+  
+  .button-center {
+    text-align: left;
+    margin-left: 35px;
+  }
+  
+  
+  .login-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .image-container {
+    display: none;
+  }
+  
+  
+  .signup-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  

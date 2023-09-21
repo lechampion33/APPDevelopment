@@ -1,0 +1,109 @@
+
+.lenders-navbar {
+  background-color: white;
+  color: rgb(18, 17, 17);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(5, 5, 5);
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lenders-navbar h1 {
+  margin: 0;
+}
+
+/* Search bar styles */
+.search-bar {
+  display: flex;
+  border: 1px solid #0e0d0d;
+  border-radius: 4px;
+  padding: 5px;
+  height: auto;
+  width: 420px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.lenders-navbar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.lenders-navbar-list li {
+  margin-right: 20px;
+}
+
+.lenders-navbar-list a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+  font-weight: bold;
+}
+
+.lenders-navbar-list a.active {
+  border-bottom: 2px solid white;
+}
+
+button {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #08defa;
+  color: #0e0e0e;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #06c8e6;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+.Lenders h2,
+.Lenders h3 {
+  text-align: left;
+}
+
+.card-row {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex-basis: calc(33.33% - 20px); 
+  margin-bottom: 20px; 
+  box-sizing: border-box;
+}
