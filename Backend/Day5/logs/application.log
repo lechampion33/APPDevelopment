@@ -1,0 +1,367 @@
+2023-10-12T09:06:29.863+05:30  INFO 41304 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 41304 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-12T09:06:29.871+05:30  INFO 41304 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T09:06:29.949+05:30  INFO 41304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-12T09:06:29.950+05:30  INFO 41304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-12T09:06:31.507+05:30  INFO 41304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12T09:06:31.617+05:30  INFO 41304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2023-10-12T09:06:32.507+05:30  INFO 41304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T09:06:32.523+05:30  INFO 41304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T09:06:32.524+05:30  INFO 41304 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T09:06:32.626+05:30  INFO 41304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T09:06:32.627+05:30  INFO 41304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2677 ms
+2023-10-12T09:06:32.800+05:30  INFO 41304 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12T09:06:32.900+05:30  INFO 41304 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-12T09:06:32.907+05:30  INFO 41304 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-12T09:06:33.117+05:30  INFO 41304 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-12T09:06:33.338+05:30  INFO 41304 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12T09:06:33.370+05:30  INFO 41304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-12T09:06:33.757+05:30  INFO 41304 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10c5cc5a
+2023-10-12T09:06:33.760+05:30  INFO 41304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-12T09:06:34.165+05:30  INFO 41304 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-12T09:06:35.093+05:30  INFO 41304 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12T09:06:35.181+05:30  INFO 41304 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12T09:06:36.012+05:30  WARN 41304 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12T09:06:36.457+05:30  INFO 41304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21bd9aae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@356da179, org.springframework.security.web.context.SecurityContextHolderFilter@4cf3bfc4, org.springframework.security.web.header.HeaderWriterFilter@aec5848, org.springframework.web.filter.CorsFilter@4793f25e, org.springframework.security.web.authentication.logout.LogoutFilter@6d8fc168, com.flashfunds.config.JwtAuthenticationFilter@36b1a36d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78d8a50c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53696286, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7916dd96, org.springframework.security.web.session.SessionManagementFilter@4aa46b77, org.springframework.security.web.access.ExceptionTranslationFilter@3918e465, org.springframework.security.web.access.intercept.AuthorizationFilter@75dc231b]
+2023-10-12T09:06:36.860+05:30  INFO 41304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-12T09:06:36.911+05:30  INFO 41304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T09:06:36.927+05:30  INFO 41304 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 7.653 seconds (process running for 8.817)
+2023-10-12T09:08:54.553+05:30  INFO 41304 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T09:08:54.555+05:30  INFO 41304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T09:08:54.557+05:30  INFO 41304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-12T09:08:54.574+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T09:08:54.627+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T09:08:54.635+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:08:54.661+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T09:08:55.321+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T09:12:08.303+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T09:12:08.312+05:30 DEBUG 41304 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T09:12:08.411+05:30 DEBUG 41304 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T09:24:12.850+05:30  WARN 41304 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s708ms443µs599ns).
+2023-10-12T09:24:14.457+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T09:24:14.459+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T09:24:14.459+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:24:14.459+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T09:24:14.603+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T09:24:41.950+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T09:24:41.955+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T09:24:41.968+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T09:25:30.173+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T09:25:30.177+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T09:25:30.181+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:25:30.181+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T09:25:30.310+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T09:28:43.617+05:30 DEBUG 41304 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T09:28:43.623+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T09:28:43.623+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:28:43.623+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T09:28:43.750+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T09:38:51.521+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T09:38:51.526+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T09:38:51.550+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T09:39:49.029+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T09:39:49.032+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T09:39:49.049+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:15:16.159+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:15:16.191+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:15:16.315+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:17:14.376+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:17:14.387+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:17:14.452+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:17:14.586+05:30  WARN 41304 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "sedrftgyhuji": not a valid `int` value]
+2023-10-12T10:17:14.637+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-12T10:17:14.654+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T10:17:14.676+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T10:17:22.284+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:17:22.285+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:17:22.306+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:17:22.306+05:30  WARN 41304 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "sedrftgyhuji": not a valid `int` value]
+2023-10-12T10:17:22.306+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-12T10:17:22.306+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T10:17:22.306+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T10:17:31.445+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:17:31.452+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:17:31.469+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:26:28.103+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:26:28.108+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:26:28.127+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:29:12.159+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:29:12.169+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:29:12.188+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:31:53.201+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:31:53.207+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:31:53.221+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:36:54.831+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:36:54.832+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:36:54.856+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:38:50.600+05:30 DEBUG 41304 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:38:50.600+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:38:50.612+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:39:49.756+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:39:49.767+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:39:49.786+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T10:53:03.296+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T10:53:03.301+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T10:53:03.322+05:30 DEBUG 41304 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:00:58.273+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:00:58.277+05:30 DEBUG 41304 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:00:58.303+05:30 DEBUG 41304 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:04:52.809+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:04:52.813+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:04:52.850+05:30 DEBUG 41304 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:05:44.334+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:05:44.338+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:05:44.357+05:30 DEBUG 41304 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:07:05.160+05:30 DEBUG 41304 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:07:05.165+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:07:05.187+05:30 DEBUG 41304 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:13:21.769+05:30 DEBUG 41304 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T11:13:21.781+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T11:13:21.783+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:13:21.785+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T11:13:21.921+05:30 DEBUG 41304 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T11:14:59.479+05:30 DEBUG 41304 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:14:59.484+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:14:59.501+05:30 DEBUG 41304 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:16:12.960+05:30  INFO 41304 --- [RMI TCP Connection(137)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-12T11:16:13.177+05:30  INFO 41304 --- [RMI TCP Connection(137)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-12T11:16:13.194+05:30  INFO 41304 --- [RMI TCP Connection(137)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-12T11:16:13.229+05:30  WARN 41304 --- [RMI TCP Connection(137)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-10-12T11:16:13.301+05:30  INFO 41304 --- [RMI TCP Connection(137)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12T11:16:13.378+05:30  INFO 41304 --- [RMI TCP Connection(137)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-12T11:16:13.394+05:30  INFO 41304 --- [RMI TCP Connection(137)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-12T11:19:52.895+05:30  INFO 4296 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 4296 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-12T11:19:52.899+05:30  INFO 4296 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T11:19:52.984+05:30  INFO 4296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-12T11:19:52.984+05:30  INFO 4296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-12T11:19:54.711+05:30  INFO 4296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12T11:19:54.826+05:30  INFO 4296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 3 JPA repository interfaces.
+2023-10-12T11:19:55.941+05:30  INFO 4296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T11:19:55.958+05:30  INFO 4296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T11:19:55.959+05:30  INFO 4296 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T11:19:56.082+05:30  INFO 4296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T11:19:56.082+05:30  INFO 4296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3096 ms
+2023-10-12T11:19:56.298+05:30  INFO 4296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12T11:19:56.419+05:30  INFO 4296 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-12T11:19:56.425+05:30  INFO 4296 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-12T11:19:56.687+05:30  INFO 4296 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-12T11:19:57.012+05:30  INFO 4296 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12T11:19:57.041+05:30  INFO 4296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-12T11:19:57.598+05:30  INFO 4296 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b7caf7
+2023-10-12T11:19:57.601+05:30  INFO 4296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-12T11:19:58.130+05:30  INFO 4296 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-12T11:19:59.306+05:30  INFO 4296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12T11:19:59.446+05:30  INFO 4296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12T11:20:00.524+05:30  WARN 4296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12T11:20:01.237+05:30  INFO 4296 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e3f9c32, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7628670a, org.springframework.security.web.context.SecurityContextHolderFilter@7b7029b7, org.springframework.security.web.header.HeaderWriterFilter@c8594a4, org.springframework.web.filter.CorsFilter@65f58b51, org.springframework.security.web.authentication.logout.LogoutFilter@150a5cf0, com.flashfunds.config.JwtAuthenticationFilter@5dbd9eaa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79f9a4f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@378533d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43936da5, org.springframework.security.web.session.SessionManagementFilter@26bf4bc4, org.springframework.security.web.access.ExceptionTranslationFilter@325269d9, org.springframework.security.web.access.intercept.AuthorizationFilter@46c1c3dc]
+2023-10-12T11:20:01.749+05:30  INFO 4296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-12T11:20:01.822+05:30  INFO 4296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T11:20:01.834+05:30  INFO 4296 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 9.629 seconds (process running for 11.401)
+2023-10-12T11:21:26.221+05:30  INFO 4296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T11:21:26.222+05:30  INFO 4296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T11:21:26.224+05:30  INFO 4296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-12T11:21:26.242+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:21:26.288+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:21:26.795+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:27:58.320+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=1234
+2023-10-12T11:27:58.326+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=1234
+2023-10-12T11:27:58.340+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=1234
+2023-10-12T11:30:53.419+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=1234
+2023-10-12T11:30:53.432+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=1234
+2023-10-12T11:30:53.450+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=1234
+2023-10-12T11:31:47.118+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T11:31:47.124+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T11:31:47.126+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:31:47.130+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T11:31:47.447+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T11:32:37.786+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-12T11:32:37.794+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T11:32:37.796+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:32:37.796+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T11:32:57.015+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T11:32:57.021+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T11:32:57.023+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:32:57.024+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T11:32:57.158+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-12T11:32:57.169+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T11:32:57.179+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-12T11:32:57.184+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:32:57.185+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T11:33:10.791+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T11:33:10.796+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T11:33:10.798+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:33:10.799+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T11:33:10.941+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-12T11:33:10.943+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T11:33:10.945+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-12T11:33:10.946+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:33:10.946+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T11:34:38.057+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-12T11:34:38.063+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T11:34:38.064+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:34:38.065+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T11:34:52.029+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T11:34:52.034+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T11:34:52.036+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:34:52.038+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T11:34:52.204+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T11:35:27.078+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T11:35:27.082+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T11:35:27.094+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T11:35:49.686+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T11:35:49.690+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T11:35:49.691+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T11:35:49.693+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T11:35:49.825+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T12:07:54.186+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m55s896ms945µs300ns).
+2023-10-12T12:13:09.428+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T12:13:09.442+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T12:13:09.463+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T12:29:52.191+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T12:29:52.200+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T12:29:52.201+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T12:29:52.202+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T12:29:52.357+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T12:30:24.399+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T12:30:24.406+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T12:30:24.407+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T12:30:24.408+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T12:30:24.541+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T12:30:40.085+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T12:30:40.096+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T12:30:40.115+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T12:32:33.499+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T12:32:33.506+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T12:32:33.507+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T12:32:33.508+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T12:32:33.645+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T12:38:15.824+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s556ms205µs699ns).
+2023-10-12T12:42:15.573+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T12:42:15.580+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T12:42:15.581+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T12:42:15.583+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T12:42:15.717+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T12:43:14.650+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T12:43:14.656+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T12:43:14.676+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T13:32:42.922+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m56s814ms321µs901ns).
+2023-10-12T13:32:52.753+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T13:32:52.758+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T13:32:52.760+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T13:32:52.761+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T13:32:52.902+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T13:33:35.721+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T13:33:35.726+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T13:33:35.744+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T13:33:56.429+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=234567
+2023-10-12T13:33:56.435+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=234567
+2023-10-12T13:33:56.451+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=234567
+2023-10-12T13:39:14.001+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T13:39:14.003+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T13:39:14.005+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T13:39:14.006+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T13:39:14.139+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T13:45:39.465+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s381ms500µs1ns).
+2023-10-12T13:47:58.925+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T13:47:58.932+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T13:47:58.933+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T13:47:58.938+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T13:47:59.073+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T13:48:02.452+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T13:48:02.456+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T13:48:02.471+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T13:48:08.246+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=234567
+2023-10-12T13:48:08.250+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=234567
+2023-10-12T13:48:08.268+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=234567
+2023-10-12T13:49:57.695+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-12T13:49:57.699+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T13:49:57.700+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T13:49:57.701+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T13:50:43.934+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T13:50:43.939+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T13:50:43.940+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T13:50:43.940+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T13:50:44.081+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T14:03:18.936+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s281ms59µs700ns).
+2023-10-12T14:37:16.771+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m27s520ms951µs).
+2023-10-12T14:37:23.259+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T14:37:23.264+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T14:37:23.264+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:37:23.267+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T14:37:23.405+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T14:38:34.765+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T14:38:34.773+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T14:38:34.774+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:38:34.774+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T14:38:34.912+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-12T14:38:34.920+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T14:38:34.926+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-12T14:38:34.927+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:38:34.927+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T14:38:42.589+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T14:38:42.594+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T14:38:42.595+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:38:42.598+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T14:38:42.731+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T14:40:04.139+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-12T14:40:04.139+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:04.146+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:04.148+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:05.683+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:05.683+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:05.683+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:06.665+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:06.678+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:06.678+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:07.434+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:07.434+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:07.434+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:08.601+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:08.606+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:08.608+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:08.768+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:08.770+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:08.772+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:08.986+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:08.986+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:08.988+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:11.460+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-12T14:40:11.465+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:11.466+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:11.467+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:13.130+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:13.130+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:13.130+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:14.735+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:14.737+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:14.737+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:16.190+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:16.190+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:16.190+05:30 DEBUG 4296 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:19.533+05:30 DEBUG 4296 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-12T14:40:19.537+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:19.539+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:19.539+05:30 DEBUG 4296 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:24.282+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-12T14:40:24.282+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:24.282+05:30 DEBUG 4296 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-12T14:40:43.524+05:30 DEBUG 4296 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-12T14:40:43.529+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-12T14:40:43.529+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T14:40:43.529+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-12T14:40:43.660+05:30 DEBUG 4296 --- [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T14:41:20.625+05:30 DEBUG 4296 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-12T14:41:20.629+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-12T14:41:20.648+05:30 DEBUG 4296 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-12T14:41:42.869+05:30 DEBUG 4296 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=2345
+2023-10-12T14:41:42.869+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=2345
+2023-10-12T14:41:42.890+05:30 DEBUG 4296 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=2345
+2023-10-12T14:52:52.661+05:30  WARN 4296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s638ms749µs).
