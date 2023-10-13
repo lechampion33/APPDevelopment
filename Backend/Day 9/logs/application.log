@@ -1,0 +1,42 @@
+2023-10-13T09:42:51.769+05:30  INFO 30496 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 30496 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-13T09:42:51.779+05:30  INFO 30496 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T09:42:51.956+05:30  INFO 30496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-13T09:42:51.956+05:30  INFO 30496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-13T09:42:53.437+05:30  INFO 30496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T09:42:53.543+05:30  INFO 30496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 3 JPA repository interfaces.
+2023-10-13T09:42:54.417+05:30  INFO 30496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T09:42:54.432+05:30  INFO 30496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T09:42:54.433+05:30  INFO 30496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T09:42:54.541+05:30  INFO 30496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T09:42:54.542+05:30  INFO 30496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2584 ms
+2023-10-13T09:42:54.742+05:30  INFO 30496 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T09:42:54.848+05:30  INFO 30496 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T09:42:54.853+05:30  INFO 30496 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T09:42:55.081+05:30  INFO 30496 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T09:42:55.304+05:30  INFO 30496 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T09:42:55.337+05:30  INFO 30496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T09:42:55.722+05:30  INFO 30496 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62262b0b
+2023-10-13T09:42:55.725+05:30  INFO 30496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T09:42:56.244+05:30  INFO 30496 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T09:42:57.301+05:30  INFO 30496 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T09:42:57.455+05:30  INFO 30496 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T09:42:58.429+05:30  WARN 30496 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T09:42:58.956+05:30  INFO 30496 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c6b60dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bd8f0c8, org.springframework.security.web.context.SecurityContextHolderFilter@20f09fe8, org.springframework.security.web.header.HeaderWriterFilter@42ea640e, org.springframework.web.filter.CorsFilter@35ea743d, org.springframework.security.web.authentication.logout.LogoutFilter@786aca4d, com.flashfunds.config.JwtAuthenticationFilter@357544e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25dddba5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71291add, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ba477ed, org.springframework.security.web.session.SessionManagementFilter@3689e0a2, org.springframework.security.web.access.ExceptionTranslationFilter@58a03ce, org.springframework.security.web.access.intercept.AuthorizationFilter@2ddf5777]
+2023-10-13T09:42:59.481+05:30  INFO 30496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-13T09:42:59.548+05:30  INFO 30496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T09:42:59.562+05:30  INFO 30496 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 8.399 seconds (process running for 9.461)
+2023-10-13T09:43:07.186+05:30  INFO 30496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T09:43:07.187+05:30  INFO 30496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T09:43:07.190+05:30  INFO 30496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-13T09:43:07.207+05:30 DEBUG 30496 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-13T09:43:07.248+05:30 DEBUG 30496 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-13T09:43:07.258+05:30 DEBUG 30496 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-13T09:43:07.280+05:30 DEBUG 30496 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-13T09:43:07.978+05:30 DEBUG 30496 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-13T10:50:23.194+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m56s447ms778µs100ns).
+2023-10-13T11:21:48.723+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s954ms965µs400ns).
+2023-10-13T11:28:27.644+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m8s844ms87µs400ns).
+2023-10-13T11:33:48.426+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s712ms382µs300ns).
+2023-10-13T12:20:10.165+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s64ms952µs900ns).
+2023-10-13T13:57:08.670+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m28s442ms996µs400ns).
+2023-10-13T14:15:10.209+05:30  WARN 30496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s107ms830µs600ns).
