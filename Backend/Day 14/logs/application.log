@@ -1,0 +1,415 @@
+2023-10-16T09:24:48.692+05:30  INFO 18328 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 18328 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T09:24:48.711+05:30  INFO 18328 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T09:24:48.794+05:30  INFO 18328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T09:24:48.795+05:30  INFO 18328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T09:24:50.245+05:30  INFO 18328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T09:24:50.345+05:30  INFO 18328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
+2023-10-16T09:24:51.220+05:30  INFO 18328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T09:24:51.234+05:30  INFO 18328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T09:24:51.234+05:30  INFO 18328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T09:24:51.342+05:30  INFO 18328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T09:24:51.343+05:30  INFO 18328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2547 ms
+2023-10-16T09:24:51.519+05:30  INFO 18328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T09:24:51.620+05:30  INFO 18328 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-16T09:24:51.626+05:30  INFO 18328 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-16T09:24:51.846+05:30  INFO 18328 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T09:24:52.062+05:30  INFO 18328 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T09:24:52.085+05:30  INFO 18328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16T09:24:52.440+05:30  INFO 18328 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a711a8a
+2023-10-16T09:24:52.444+05:30  INFO 18328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16T09:24:52.836+05:30  INFO 18328 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T09:24:53.772+05:30  INFO 18328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T09:24:53.869+05:30  INFO 18328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T09:24:54.666+05:30  WARN 18328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16T09:24:55.091+05:30  INFO 18328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e46c165, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ab57317, org.springframework.security.web.context.SecurityContextHolderFilter@5fd5fe7d, org.springframework.security.web.header.HeaderWriterFilter@5a07feba, org.springframework.web.filter.CorsFilter@5031f461, org.springframework.security.web.authentication.logout.LogoutFilter@1210ede1, com.flashfunds.config.JwtAuthenticationFilter@512e379b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53f4ad6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@658a5eb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a272607, org.springframework.security.web.session.SessionManagementFilter@7bba0f1b, org.springframework.security.web.access.ExceptionTranslationFilter@7231a2bc, org.springframework.security.web.access.intercept.AuthorizationFilter@32b4da60]
+2023-10-16T09:24:55.479+05:30  INFO 18328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-16T09:24:55.536+05:30  INFO 18328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-16T09:24:55.548+05:30  INFO 18328 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 7.422 seconds (process running for 8.447)
+2023-10-16T09:25:20.871+05:30  INFO 18328 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16T09:25:20.871+05:30  INFO 18328 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-16T09:25:20.875+05:30  INFO 18328 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-10-16T09:25:20.887+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-16T09:25:20.938+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-16T09:25:21.361+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-16T09:25:44.378+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=2345678
+2023-10-16T09:25:44.385+05:30 DEBUG 18328 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=2345678
+2023-10-16T09:25:44.405+05:30 DEBUG 18328 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=2345678
+2023-10-16T09:35:55.345+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/loan/getloans
+2023-10-16T09:35:55.357+05:30 DEBUG 18328 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/user/loan/getloans
+2023-10-16T09:35:55.381+05:30 DEBUG 18328 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/user/loan/getloans
+2023-10-16T09:42:37.116+05:30 DEBUG 18328 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/loan/getloans
+2023-10-16T09:42:37.134+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/user/loan/getloans
+2023-10-16T09:42:37.148+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/user/loan/getloans
+2023-10-16T09:43:06.047+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/loan/getloans
+2023-10-16T09:43:06.058+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/user/loan/getloans
+2023-10-16T09:43:06.087+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/user/loan/getloans
+2023-10-16T09:47:24.938+05:30 DEBUG 18328 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-16T09:47:24.938+05:30 DEBUG 18328 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-16T09:47:24.946+05:30 DEBUG 18328 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:47:24.947+05:30 DEBUG 18328 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-16T09:50:11.382+05:30 DEBUG 18328 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:50:11.394+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:50:11.398+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:50:11.398+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:50:11.664+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T09:50:54.066+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:50:54.066+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:50:54.066+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:50:54.066+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:50:54.202+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T09:51:29.652+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:51:29.662+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:51:29.662+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:51:29.662+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:51:29.789+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T09:54:32.920+05:30 DEBUG 18328 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:54:32.924+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:54:32.924+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:54:32.924+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:54:33.065+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T09:54:54.114+05:30 DEBUG 18328 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:54:54.126+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:54:54.129+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:54:54.129+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:54:54.279+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T09:59:40.565+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:59:40.573+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:59:40.573+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:59:40.576+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:59:40.706+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T09:59:40.723+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T09:59:40.735+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T09:59:40.739+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:59:40.739+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T09:59:48.773+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T09:59:48.778+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T09:59:48.779+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T09:59:48.779+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T09:59:48.909+05:30 DEBUG 18328 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T10:06:25.473+05:30 DEBUG 18328 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T10:06:25.479+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T10:06:25.479+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:06:25.479+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T10:06:25.673+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:06:25.677+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:06:25.677+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:06:25.677+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:06:25.677+05:30 DEBUG 18328 --- [http-nio-8080-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:06:53.952+05:30 DEBUG 18328 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T10:06:53.966+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T10:06:53.969+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:06:53.969+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T10:06:54.085+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:06:54.102+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:06:54.102+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:06:54.102+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:06:54.102+05:30 DEBUG 18328 --- [http-nio-8080-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:07:25.290+05:30 DEBUG 18328 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-16T10:07:25.299+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-16T10:07:25.300+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:07:25.302+05:30 DEBUG 18328 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-16T10:07:41.817+05:30 DEBUG 18328 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T10:07:41.825+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T10:07:41.827+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:07:41.828+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T10:07:41.961+05:30 DEBUG 18328 --- [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T10:11:28.235+05:30  WARN 18328 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s981ms426µs).
+2023-10-16T10:11:59.892+05:30  INFO 18328 --- [RMI TCP Connection(56)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-16T10:11:59.971+05:30  INFO 18328 --- [RMI TCP Connection(56)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-16T10:11:59.978+05:30  INFO 18328 --- [RMI TCP Connection(56)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-16T10:11:59.991+05:30  WARN 18328 --- [RMI TCP Connection(56)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-10-16T10:12:00.019+05:30  INFO 18328 --- [RMI TCP Connection(56)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T10:12:00.049+05:30  INFO 18328 --- [RMI TCP Connection(56)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16T10:12:00.063+05:30  INFO 18328 --- [RMI TCP Connection(56)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16T13:57:24.767+05:30  INFO 41756 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 41756 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T13:57:24.771+05:30  INFO 41756 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T13:57:24.858+05:30  INFO 41756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T13:57:24.858+05:30  INFO 41756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T13:57:26.506+05:30  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T13:57:26.626+05:30  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 3 JPA repository interfaces.
+2023-10-16T13:57:27.943+05:30  INFO 41756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T13:57:27.963+05:30  INFO 41756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T13:57:27.964+05:30  INFO 41756 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T13:57:28.088+05:30  INFO 41756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T13:57:28.089+05:30  INFO 41756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3230 ms
+2023-10-16T13:57:28.312+05:30  INFO 41756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T13:57:28.446+05:30  INFO 41756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-16T13:57:28.452+05:30  INFO 41756 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-16T13:57:28.715+05:30  INFO 41756 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T13:57:29.029+05:30  INFO 41756 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T13:57:29.068+05:30  INFO 41756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16T13:57:29.706+05:30  INFO 41756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b5bd784
+2023-10-16T13:57:29.709+05:30  INFO 41756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16T13:57:30.208+05:30  INFO 41756 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T13:57:31.335+05:30  INFO 41756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T13:57:31.438+05:30  INFO 41756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T13:57:32.274+05:30  WARN 41756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16T13:57:32.705+05:30  INFO 41756 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c72af18, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6aace79c, org.springframework.security.web.context.SecurityContextHolderFilter@7fd49ee0, org.springframework.security.web.header.HeaderWriterFilter@168297fa, org.springframework.web.filter.CorsFilter@6049b7ca, org.springframework.security.web.authentication.logout.LogoutFilter@ead236b, com.flashfunds.config.JwtAuthenticationFilter@700b4a19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27f5aaa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25d898b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c52e99, org.springframework.security.web.session.SessionManagementFilter@5d2023ab, org.springframework.security.web.access.ExceptionTranslationFilter@5d01954, org.springframework.security.web.access.intercept.AuthorizationFilter@5ff729fb]
+2023-10-16T13:57:33.088+05:30  INFO 41756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-16T13:57:33.139+05:30  INFO 41756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-16T13:57:33.151+05:30  INFO 41756 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 9.108 seconds (process running for 10.936)
+2023-10-16T13:57:39.803+05:30  INFO 41756 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16T13:57:39.804+05:30  INFO 41756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-16T13:57:39.807+05:30  INFO 41756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-16T13:57:39.827+05:30 DEBUG 41756 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T13:57:39.871+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T13:57:39.892+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:57:39.929+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T13:57:40.584+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T13:57:40.597+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:57:40.605+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T13:57:40.611+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:57:40.613+05:30 DEBUG 41756 --- [http-nio-8080-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:57:44.982+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T13:57:44.982+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T13:57:44.982+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:57:44.982+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T13:57:45.130+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T13:57:45.133+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:57:45.133+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T13:57:45.133+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:57:45.133+05:30 DEBUG 41756 --- [http-nio-8080-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:58:09.577+05:30 DEBUG 41756 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T13:58:09.580+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T13:58:09.580+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:58:09.580+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T13:58:09.728+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T13:58:09.732+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:58:09.732+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T13:58:09.735+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:58:09.736+05:30 DEBUG 41756 --- [http-nio-8080-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:58:44.356+05:30 DEBUG 41756 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T13:58:44.365+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T13:58:44.366+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:58:44.366+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T13:58:44.497+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T13:58:44.500+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:58:44.500+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T13:58:44.504+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:58:44.506+05:30 DEBUG 41756 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:59:13.949+05:30  INFO 39372 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 39372 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T13:59:13.953+05:30  INFO 39372 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T13:59:14.017+05:30  INFO 39372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T13:59:14.018+05:30  INFO 39372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T13:59:15.249+05:30  INFO 39372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T13:59:15.354+05:30  INFO 39372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+2023-10-16T13:59:15.768+05:30  INFO 41756 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-16T13:59:15.788+05:30  INFO 41756 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-16T13:59:15.791+05:30  INFO 41756 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-16T13:59:15.796+05:30  WARN 41756 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-10-16T13:59:15.806+05:30  INFO 41756 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T13:59:15.814+05:30  INFO 41756 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16T13:59:15.825+05:30  INFO 41756 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16T13:59:16.276+05:30  INFO 39372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T13:59:16.289+05:30  INFO 39372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T13:59:16.290+05:30  INFO 39372 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T13:59:16.415+05:30  INFO 39372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T13:59:16.416+05:30  INFO 39372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2396 ms
+2023-10-16T13:59:30.091+05:30  INFO 44220 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 44220 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T13:59:30.095+05:30  INFO 44220 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T13:59:30.168+05:30  INFO 44220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T13:59:30.168+05:30  INFO 44220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T13:59:31.323+05:30  INFO 44220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T13:59:31.434+05:30  INFO 44220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 3 JPA repository interfaces.
+2023-10-16T13:59:32.301+05:30  INFO 44220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T13:59:32.313+05:30  INFO 44220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T13:59:32.314+05:30  INFO 44220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T13:59:32.442+05:30  INFO 44220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T13:59:32.443+05:30  INFO 44220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2273 ms
+2023-10-16T13:59:32.610+05:30  INFO 44220 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T13:59:32.680+05:30  INFO 44220 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-16T13:59:32.684+05:30  INFO 44220 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-16T13:59:32.869+05:30  INFO 44220 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T13:59:33.056+05:30  INFO 44220 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T13:59:33.082+05:30  INFO 44220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16T13:59:33.523+05:30  INFO 44220 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@463aa6db
+2023-10-16T13:59:33.527+05:30  INFO 44220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16T13:59:33.957+05:30  INFO 44220 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T13:59:34.951+05:30  INFO 44220 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T13:59:35.037+05:30  INFO 44220 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T13:59:35.849+05:30  WARN 44220 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16T13:59:36.266+05:30  INFO 44220 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ac488d3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3980dd1, org.springframework.security.web.context.SecurityContextHolderFilter@387a6ca7, org.springframework.security.web.header.HeaderWriterFilter@6ced1525, org.springframework.web.filter.CorsFilter@5628ab1a, org.springframework.security.web.authentication.logout.LogoutFilter@6aace79c, com.flashfunds.config.JwtAuthenticationFilter@3f25ad02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15af2631, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fb09a8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75cb5a04, org.springframework.security.web.session.SessionManagementFilter@670f607d, org.springframework.security.web.access.ExceptionTranslationFilter@2d0f908c, org.springframework.security.web.access.intercept.AuthorizationFilter@4519898b]
+2023-10-16T13:59:36.624+05:30  INFO 44220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-16T13:59:36.678+05:30  INFO 44220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-16T13:59:36.692+05:30  INFO 44220 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 7.156 seconds (process running for 8.274)
+2023-10-16T14:00:40.908+05:30  INFO 44220 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16T14:00:40.908+05:30  INFO 44220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-16T14:00:40.911+05:30  INFO 44220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-16T14:00:40.923+05:30 DEBUG 44220 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T14:00:40.967+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T14:00:40.976+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T14:00:40.992+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T14:00:41.605+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T14:00:41.611+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T14:00:41.624+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T14:00:41.624+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T14:00:41.624+05:30 DEBUG 44220 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T14:01:05.539+05:30  INFO 44220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-10-16T14:01:05.562+05:30  INFO 44220 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-16T14:01:05.564+05:30  INFO 44220 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-16T14:01:05.569+05:30  WARN 44220 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-10-16T14:01:05.580+05:30  INFO 44220 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T14:01:05.587+05:30  INFO 44220 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16T14:01:05.603+05:30  INFO 44220 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16T14:01:05.730+05:30  INFO 44220 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 44220 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T14:01:05.731+05:30  INFO 44220 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T14:01:06.137+05:30  INFO 44220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T14:01:06.178+05:30  INFO 44220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2023-10-16T14:01:06.415+05:30  INFO 44220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T14:01:06.417+05:30  INFO 44220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T14:01:06.417+05:30  INFO 44220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T14:01:06.465+05:30  INFO 44220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T14:01:06.466+05:30  INFO 44220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2023-10-16T14:01:06.569+05:30  INFO 44220 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T14:01:06.583+05:30  INFO 44220 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T14:01:06.584+05:30  INFO 44220 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T14:01:06.585+05:30  INFO 44220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-16T14:01:06.615+05:30  INFO 44220 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bb24292
+2023-10-16T14:01:06.615+05:30  INFO 44220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-16T14:01:06.652+05:30  INFO 44220 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T14:01:06.772+05:30  INFO 44220 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T14:01:06.970+05:30  INFO 44220 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T14:01:07.353+05:30  WARN 44220 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16T14:01:07.597+05:30  INFO 44220 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e2ed793, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a2a5fdf, org.springframework.security.web.context.SecurityContextHolderFilter@4984b0c5, org.springframework.security.web.header.HeaderWriterFilter@429268f2, org.springframework.web.filter.CorsFilter@20644728, org.springframework.security.web.authentication.logout.LogoutFilter@329ecbd2, com.flashfunds.config.JwtAuthenticationFilter@3bf98986, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@523f58ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33b7fe1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@670d0281, org.springframework.security.web.session.SessionManagementFilter@118993f4, org.springframework.security.web.access.ExceptionTranslationFilter@7fac9188, org.springframework.security.web.access.intercept.AuthorizationFilter@4250afda]
+2023-10-16T14:01:07.769+05:30  INFO 44220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-16T14:01:07.787+05:30  INFO 44220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-16T14:01:07.797+05:30  INFO 44220 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 2.114 seconds (process running for 99.38)
+2023-10-16T14:01:07.803+05:30  INFO 44220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-16T14:01:45.128+05:30  INFO 48860 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 48860 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T14:01:45.132+05:30  INFO 48860 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T14:01:45.198+05:30  INFO 48860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T14:01:45.199+05:30  INFO 48860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T14:01:46.348+05:30  INFO 48860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T14:01:46.450+05:30  INFO 48860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 3 JPA repository interfaces.
+2023-10-16T14:01:47.328+05:30  INFO 48860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T14:01:47.345+05:30  INFO 48860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T14:01:47.346+05:30  INFO 48860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T14:01:47.454+05:30  INFO 48860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T14:01:47.454+05:30  INFO 48860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2255 ms
+2023-10-16T14:01:47.650+05:30  INFO 48860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T14:01:47.718+05:30  INFO 48860 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-16T14:01:47.722+05:30  INFO 48860 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-16T14:01:47.904+05:30  INFO 48860 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T14:01:48.115+05:30  INFO 48860 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T14:01:48.146+05:30  INFO 48860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16T14:01:48.568+05:30  INFO 48860 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47feec99
+2023-10-16T14:01:48.573+05:30  INFO 48860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16T14:01:48.985+05:30  INFO 48860 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T14:01:49.953+05:30  INFO 48860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T14:01:50.030+05:30  INFO 48860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T14:01:50.847+05:30  WARN 48860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16T14:01:51.275+05:30  INFO 48860 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6aace79c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6049b7ca, org.springframework.security.web.context.SecurityContextHolderFilter@23b5c7ca, org.springframework.security.web.header.HeaderWriterFilter@156d22d3, org.springframework.web.filter.CorsFilter@3c52e99, org.springframework.security.web.authentication.logout.LogoutFilter@5100ae2f, com.flashfunds.config.JwtAuthenticationFilter@359893a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ea02a1f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@285e8053, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a565b96, org.springframework.security.web.session.SessionManagementFilter@6ced1525, org.springframework.security.web.access.ExceptionTranslationFilter@2a3db94d, org.springframework.security.web.access.intercept.AuthorizationFilter@7fbeba31]
+2023-10-16T14:01:51.646+05:30  WARN 48860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-10-16T14:01:51.675+05:30  WARN 48860 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-10-16T14:01:51.679+05:30  INFO 48860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T14:01:51.684+05:30  INFO 48860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16T14:01:51.694+05:30  INFO 48860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16T14:01:51.697+05:30  INFO 48860 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-16T14:01:51.711+05:30  INFO 48860 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-16T14:01:51.739+05:30 ERROR 48860 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-16T14:01:54.230+05:30  INFO 44220 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-16T14:01:54.245+05:30  INFO 44220 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-16T14:01:54.248+05:30  WARN 44220 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-10-16T14:01:54.255+05:30  INFO 44220 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T14:01:54.257+05:30  INFO 44220 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-16T14:01:54.270+05:30  INFO 44220 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-16T14:03:23.766+05:30  INFO 45796 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Starting FlashfundsApplication using Java 17.0.6 with PID 45796 (C:\Users\thala\Documents\Switchblade\flashfunds\target\classes started by thala in C:\Users\thala\Documents\Switchblade\flashfunds)
+2023-10-16T14:03:23.769+05:30  INFO 45796 --- [restartedMain] com.flashfunds.FlashfundsApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T14:03:23.842+05:30  INFO 45796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T14:03:23.843+05:30  INFO 45796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T14:03:25.026+05:30  INFO 45796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T14:03:25.121+05:30  INFO 45796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2023-10-16T14:03:25.955+05:30  INFO 45796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-16T14:03:25.971+05:30  INFO 45796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-16T14:03:25.972+05:30  INFO 45796 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16T14:03:26.089+05:30  INFO 45796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-16T14:03:26.090+05:30  INFO 45796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2245 ms
+2023-10-16T14:03:26.287+05:30  INFO 45796 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T14:03:26.356+05:30  INFO 45796 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-16T14:03:26.360+05:30  INFO 45796 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-16T14:03:26.532+05:30  INFO 45796 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T14:03:26.718+05:30  INFO 45796 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T14:03:26.746+05:30  INFO 45796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16T14:03:27.176+05:30  INFO 45796 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@684ec2e6
+2023-10-16T14:03:27.179+05:30  INFO 45796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16T14:03:27.589+05:30  INFO 45796 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T14:03:28.502+05:30  INFO 45796 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T14:03:28.592+05:30  INFO 45796 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T14:03:29.436+05:30  WARN 45796 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16T14:03:29.875+05:30  INFO 45796 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d6b8569, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@294ad93d, org.springframework.security.web.context.SecurityContextHolderFilter@4c007a8, org.springframework.security.web.header.HeaderWriterFilter@30cc149d, org.springframework.web.filter.CorsFilter@163c3523, org.springframework.security.web.authentication.logout.LogoutFilter@36ed9525, com.flashfunds.config.JwtAuthenticationFilter@17112b9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5caffcf7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69bd8b0e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7eaa021d, org.springframework.security.web.session.SessionManagementFilter@35993e3a, org.springframework.security.web.access.ExceptionTranslationFilter@72059e4d, org.springframework.security.web.access.intercept.AuthorizationFilter@7202c8f9]
+2023-10-16T14:03:30.274+05:30  INFO 45796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-16T14:03:30.321+05:30  INFO 45796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-16T14:03:30.334+05:30  INFO 45796 --- [restartedMain] com.flashfunds.FlashfundsApplication     : Started FlashfundsApplication in 7.139 seconds (process running for 8.331)
+2023-10-16T14:05:09.889+05:30  INFO 45796 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16T14:05:09.889+05:30  INFO 45796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-16T14:05:09.889+05:30  INFO 45796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-16T14:05:09.905+05:30 DEBUG 45796 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/register
+2023-10-16T14:05:09.955+05:30 DEBUG 45796 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-16T14:05:09.955+05:30 DEBUG 45796 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T14:05:09.978+05:30 DEBUG 45796 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-16T14:05:34.729+05:30 DEBUG 45796 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/login
+2023-10-16T14:05:34.735+05:30 DEBUG 45796 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-16T14:05:34.736+05:30 DEBUG 45796 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T14:05:34.736+05:30 DEBUG 45796 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-16T14:05:35.015+05:30 DEBUG 45796 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T14:11:16.037+05:30 DEBUG 45796 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/postborrower
+2023-10-16T14:11:16.042+05:30 DEBUG 45796 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/user/postborrower
+2023-10-16T14:11:16.165+05:30 DEBUG 45796 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/user/postborrower
+2023-10-16T14:11:44.245+05:30 DEBUG 45796 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/user/putborrower?id=45
+2023-10-16T14:11:44.251+05:30 DEBUG 45796 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/putborrower?id=45
+2023-10-16T14:11:44.259+05:30 DEBUG 45796 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/putborrower?id=45
+2023-10-16T15:07:20.425+05:30  WARN 45796 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s291ms196µs800ns).
+2023-10-16T15:25:04.955+05:30  WARN 45796 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s286ms768µs300ns).
+2023-10-16T15:31:32.285+05:30  WARN 45796 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m57s298ms109µs300ns).
+2023-10-16T15:48:01.229+05:30  WARN 45796 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s369ms524µs200ns).
